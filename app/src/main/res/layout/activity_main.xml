@@ -38,6 +38,8 @@
         android:id="@+id/edt_idade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="2"
         />
 
     <Button
@@ -51,6 +53,11 @@
     <TextView
         android:id="@+id/txt_resultado"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
 
 </LinearLayout>
